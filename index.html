@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FORESTR | Find your park here !</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link rel="stylesheet" href="assets/styles.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.1/mapquest.js"></script>     
+    <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.1/mapquest.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Barrio|Bungee+Shade&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <nav class="navbar background-color-navbar-var" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand center-flex-text-var ">
+          <a class="navbar-item" href="./index.html">
+            <!-- <h1 class="title is-1 text-color-navbar-var">FORESTR</h1> -->
+            <img src="assets/forestr-logo.png" alt="forestr, national park finder for day trips" height="100%">
+          </a>
+        </div>
+
+        <div class="navbar-start">
+          <!-- <div class="navbar-item center-flex-text-var ">
+            <h2 class="title is-3 text-color-navbar-var">Find Today's Escape!</h2>
+          </div> -->
+        </div>
+    </nav>
+    <section class="hero has-bg-image is-medium is-bold">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            discover something new
+          </h1>
+          <h2 class="subtitle">
+            <button class="button is-primary is-inverted is-outlined is-focus is-large" id="location-finder">find a national park!</button>
+   
+          </h2>
+        
+      </div>
+    </div>
+    </section>
+    <section class="section background-color-section-var" id="body">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-two-thirds">
+            <div class="box">
+              <!-- <button class="button is-success is-outlined is-rounded is-medium is-fullwidth" id="location-finder">find my park!</button>-->
+              <div id="modalArea"></div>
+              <div id="map" style="width: 100%; height: 530px;">*= distance is direct path; not driving/walking distance.</div>
+          </div>
+        </div>
+        <div class="column is-one-third ">
+          <div class="box ">
+            <h3 class="title is-2 has-text-centered">Parks</h3>
+            <hr />
+            <div id="park-links"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- This is the modal -->
+    <div class="container" id="app"> 
+      <div class="modal">
+        <div class="modal-background"></div>
+          <div class="modal-card">
+            <header class="modal-card-head">
+              <p class="modal-card-title" id="location-title">Modal title</p>
+            </header>
+          
+            <section class="modal-card-body" id="">
+            <!-- Content ... 
+            -->
+            </section>
+          
+            <footer class="modal-card-foot">
+              <button class="button is-success" id="save-location">Save Location</button>
+              <button class="button is-light" id="modal-close">Cancel</button>
+            </footer>
+          </div>
+      </div>
+    </div>
+    <p id="mapperID"></p>
+    <!-- make this sticky bottom -->
+    <nav class="navbar-is-fixed-bottom has-text-centered-desktop has-text-centered-tablet has-text-centered-mobile background-color-navbar-var" role="footer" aria-label="footer" id="footer">
+      <div class="navbar-item">
+        <p >
+          <strong class="text-color-navbar-var">Forestr</strong> created by by Ricardo Schaffer, Victoria Saleem, and Alex Taylor.
+        </p>
+      </div>
+    </nav>
+    <script src="assets/park-info.js"></script>
+    <script src="assets/park-mq-script.js"></script>
+  </body>
+  
+</html>

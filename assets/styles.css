@@ -1,0 +1,97 @@
+body {
+  color:#080f0f;
+}
+#body {
+  display: none;
+}
+a {
+  color: #a4bab7;
+}
+
+.navbar {
+  box-shadow:0px 1px 10px #080f0f;
+}
+.navbar-item img {
+  max-height: 3rem;
+}
+  
+  
+@media (max-width: 768px) {
+  .center-flex-text-var {
+    text-align:center;
+    place-content:center;
+  }
+}
+
+moz-any-link {
+  background-color: #080f0f;
+  background-color: #a4bab7;
+  background-color: #f15025;
+  background-color: #ffffff;
+  background-color: #e6e8e6;
+}
+
+.background-color-navbar-var {
+ background-color: #a4bab7;
+;
+  /* background-color: #a4bab7; */
+}
+
+.text-color-navbar-var {
+  text-shadow:1px 1px #080f0f;
+}
+.modal-card-head {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f15025;
+  font-size: 18px;
+}
+#map{
+  z-index: 10;
+}
+#modalArea{
+  z-index: 10000;
+}
+.modal-card-head {
+font-family: Arial, Helvetica, sans-serif;
+color: #f15025;
+font-size: 18px;
+}
+.modal-card-body {
+background-color:#e6e8e6;
+}
+.hero.has-bg-image {
+  background:url("./go-explore-forestr-image-copyright-by-Marvin-Laput-Tenepre.jpg") center center;
+  background-size: cover;
+  height: 650px;
+  background-repeat: no-repeat;
+  background-color: #f15025 !important;
+}
+.hero-body, .hero-body .title{
+  color: #fff;
+  text-align: center;
+  padding-top: 10%;
+  font-family: 'Bungee Shade', Arial, Helvetica, sans-serif;
+}
+.subtitle {
+  text-align:center;
+}
+#location-finder {
+  background-color: rgba(14, 14, 14, 0.7);
+  box-shadow: -3px -3px 16px 0px #f3fffd;
+  box-shadow: 3px 3px 6px 0px #b7bebe;
+  border-color: #fff;
+  color: #fff;
+}
+#location-finder:hover {
+  color: #fff;
+  box-shadow: inset -3px -3px 16px 0px #a3a3a3;
+  box-shadow: inset 3px 3px 6px 0px #222;
+  -moz-box-shadow: inset -3px -3px 16px 0px #a3a3a3;
+  -moz-box-shadow:  inset 3px 3px 6px 0px #222;
+  -webkit-box-shadow: inset -3px -3px 16px 0px #a3a3a3;
+  -webkit-box-shadow:  inset 3px 3px 6px 0px #222;
+}
+#span-dropdown-width {
+  overflow: hidden;
+  width: 100%;
+}
