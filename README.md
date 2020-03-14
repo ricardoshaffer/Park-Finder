@@ -1,2 +1,2 @@
 # Park-Finder
-Project One by Alex, Veronica, &amp; Ricardo
+Project One by Alex, Victoria, &amp; Ricardo
