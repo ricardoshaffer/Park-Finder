@@ -32,7 +32,7 @@ moz-any-link {
 }
 
 .background-color-navbar-var {
- background-color: #000;
+ background-color: #000000;
 ;
   /* background-color: #a4bab7; */
 }
@@ -76,9 +76,9 @@ background-color:#e6e8e6;
   text-align:center;
 }
 #location-finder {
-  background-color: rgba(14, 14, 14, 0.7);
-  box-shadow: -3px -3px 16px 0px #f3fffd;
-  box-shadow: 3px 3px 6px 0px #b7bebe;
+  background-color: rgba(36, 119, 87, 0.7);
+  box-shadow: -3px -3px 16px 0px #8f41d8;
+  box-shadow: 3px 3px 6px 0px #361753;
   border-color: #fff;
   color: #fff;
 }
