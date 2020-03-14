@@ -57,8 +57,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
       let limitResults = "&limit=50";
       let apiKey = "C20X2gP148EDeslk7stqM8BU6u6WmOqbAdPeKG8C";
 /// NATIONAL PARKS API:
-              /// TO CHANGE RESPONSE QTY: Modify "&limit=10" (min. 1 to max. 50)
-      let queryURL = "https://developer.nps.gov/api/v1/parks?stateCode="+ stateLocation +"&limit=10&api_key=C20X2gP148EDeslk7stqM8BU6u6WmOqbAdPeKG8C";
+              /// TO CHANGE RESPONSE QTY: Modify "&limit=15" (min. 1 to max. 50)
+      let queryURL = "https://developer.nps.gov/api/v1/parks?stateCode="+ stateLocation +"&limit=15&api_key=C20X2gP148EDeslk7stqM8BU6u6WmOqbAdPeKG8C";
 //// GENERATES a mapquest map utilizing the lat & long of the user ///
       L.mapquest.key = 'm6r48gcKnaiZ5cS9fynPUC8mEcXnoOjO';
         let map = L.mapquest.map('map', {
