@@ -60,3 +60,5 @@ The National Parks Service API provides less details about parks than the Govern
 
 # Park-Finder
 Project One by Alex, Victoria, &amp; Ricardo
+*   [![](https://img.shields.io/badge/Questions%3F-ricardo.ramiro.shaffer%40gmail.com-brightgreen)](mailto:ricardo.ramiro.shaffer@gmail.com)
+*   
