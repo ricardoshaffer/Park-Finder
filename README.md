@@ -40,6 +40,11 @@ The second function:
 WHEN I click on a park location on a map
 THEN I get more information about the park presented on a modal
 ```
+![](assets/Park-Findr-Search.png)
+## Process
+*   Utilizes Geolocation to determine the user's spot (if mobile), if 'mobile' location is restricted, system will utilize IP-Tracing to determine approximate location.
+*   API is then called for the state of the user utilizing their geolocation/IP state to determine the parks nearby, including park information, location, & hours.
+
 
 ## APIs utilized
 
